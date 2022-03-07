@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q7</title>
+</head>
+<body>
+    <Script>
+      
+        var person={
+            fname:String,
+            lname:String,
+            age:Number,
+            skills:Array,
+            address:{
+            city:String,
+            pincode:Number,
+        },
+            
+            dateOfBirth:Date, 
+            married:Boolean,
+            profession:String,
+            };
+            
+        var person=function(fname,lname,age,skills,dateOfBirth,address,married,profession)
+        {
+            this.fname=fname;
+            this.lname=lname;
+            this.age=age;
+            this.skills=skills;
+            this.dateOfBirth=dateOfBirth;
+            this.address=address;
+            this.married=married;
+            this.profession=profession;
+        }
+        person1=new person("Sanket","Bolamwar",21,"Java","01/04/2001",{city:"Ballarpur",pincode:442701},"false","Web Developer");
+       
+        person2=new person("Radha","Sharma",21,"Python","12/06/2001",{city:"Nagpur",pincode:"440016"},"false","Data Analyst");
+        print=function()
+        {
+            console.log(person1);
+            console.log(person2);
+        }();
+            
+    </Script>
+</body>
+</html>

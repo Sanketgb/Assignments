@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script>
-        
         //a)With Default Values
         const add = (a = 10, b = 20) => {
             console.log(a, b);
@@ -41,7 +30,3 @@
         };
         let Names = ['Sanket', 'Pratik', 'Atul', 'Radha', 'Ashish'];
         printCapitalNames(...Names);
-
-    </script>
-</body>
-</html>
